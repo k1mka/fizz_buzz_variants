@@ -4,12 +4,14 @@ void fizzBuzzWithTernary() {
     var fizz = i % 3 == 0;
     var buzz = i % 5 == 0;
 
-    fizzBuzz
-        ? print('fizzBuzz')
-        : fizz
-            ? print('fizz')
-            : buzz
-                ? 'Buzz'
-                : print(i);
+    print(
+      fizzBuzz
+          ? 'FizzBuzz'
+          : fizz
+              ? 'Fizz'
+              : buzz
+                  ? 'Buzz'
+                  : i,
+    );
   }
 }
