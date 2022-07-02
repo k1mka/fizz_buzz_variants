@@ -11,5 +11,5 @@ void main(List<String> arguments) {
   // switchWileFizzBuzz();
   // print("");
   //fizzBuzzWithTernary();
-  printFizzBuzz();
+  solveFizzBuzz();
 }
