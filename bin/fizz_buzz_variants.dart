@@ -1,13 +1,15 @@
 import 'package:fizz_buzz_variants/fizz_buzz_variants.dart'
     as fizz_buzz_variants;
 import 'package:fizz_buzz_variants/fizz_buzz_with_ternary.dart';
+import 'package:fizz_buzz_variants/fizzbuzz_from_func.dart';
 import 'package:fizz_buzz_variants/original_fizz_buzz.dart';
 import 'package:fizz_buzz_variants/switch_wile_fizz_buzz.dart';
 
 void main(List<String> arguments) {
-  originalFizzBuzz();
-  print("");
-  switchWileFizzBuzz();
-  print("");
-  fizzBuzzWithTernary();
+  // originalFizzBuzz();
+  // print("");
+  // switchWileFizzBuzz();
+  // print("");
+  //fizzBuzzWithTernary();
+  printFizzBuzz();
 }
